@@ -3,6 +3,7 @@
 ![](https://badge.mcpx.dev?type=server 'MCP Server')
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PyPI version](https://badge.fury.io/py/hitl-mcp-server.svg)](https://badge.fury.io/py/hitl-mcp-server)
+[![smithery badge](https://smithery.ai/badge/@GongRzhe/Human-In-the-Loop-MCP-Server)](https://smithery.ai/server/@GongRzhe/Human-In-the-Loop-MCP-Server)
 
 A powerful **Model Context Protocol (MCP) Server** that enables AI assistants like Claude to interact with humans through intuitive GUI dialogs. This server bridges the gap between automated AI processes and human decision-making by providing real-time user input tools, choices, confirmations, and feedback mechanisms.
 
@@ -32,6 +33,14 @@ A powerful **Model Context Protocol (MCP) Server** that enables AI assistants li
 - **Keyboard Navigation**: Full keyboard shortcuts support (Enter/Escape)
 
 ## 📦 Installation & Setup
+
+### Installing via Smithery
+
+To install Human-In-the-Loop MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@GongRzhe/Human-In-the-Loop-MCP-Server):
+
+```bash
+npx -y @smithery/cli install @GongRzhe/Human-In-the-Loop-MCP-Server --client claude
+```
 
 ### Quick Install with uvx (Recommended)
 
